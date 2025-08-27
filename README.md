@@ -1,8 +1,7 @@
 # AlertDrive: Driver Drowsiness & Distraction Detection
 
 Real-time computer vision system that detects **drowsiness (eye closure, yawning)** and **distraction (looking away)** from a webcam feed. 
-Runs on CPU in real-time using **OpenCV + MediaPipe** with simple rule-based thresholds (EAR/MAR/head pose).
-
+Runs on CPU in real-time using **OpenCV + MediaPipe** with simple rule-based thresholds (EAR/MAR/head pose). 
 
 
 ---
@@ -16,6 +15,9 @@ Runs on CPU in real-time using **OpenCV + MediaPipe** with simple rule-based thr
 - Configurable thresholds and frame windows
 
 ## Quick Start
+### IMPORTANT INFORMATION: The entire project is designed with Python 3.11 (recommended).
+
+
 
 ### 1) Create & activate a virtual environment (recommended)
 ```bash
